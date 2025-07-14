@@ -26,7 +26,7 @@ library(qpdf, warn=FALSE)
 library(ggpubr, warn=FALSE)
 library(plyr, warn=FALSE)
 })
-
+options(shiny.maxRequestSize=30*1024^2)
 server <- function(input, output,session) { 
   
  cantdeut=reactive({ #number of residues that cannot withhold deuteration as input by user
