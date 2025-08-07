@@ -134,7 +134,7 @@ ui <- dashboardPage(
                        checkboxGroupInput("datacheck",label=tags$span("Check an option if you are NOT using HDExaminer output file",bsButton("testingbutton",label="",style="info",icon=icon("info"),size="extra-small")),
                                           c("WATERS/Dynamix output file", "Custom .csv output file"))),
               bsPopover(id = "testingbutton",title = HTML("<b> Important </b>"),
-                        content = paste0("If you are not using an HDExaminer output file, please select the option that fits your data. Check WATERS/Dynamix if you are using a Dinamix output file or check Custom csv for any other type of file. Note: for custom .csv, you will need to manually format your data as in the csv file available for download in the bottom right link."),
+                        content = paste0("If you are not using an HDExaminer output file, please select the option that fits your data. Check WATERS/Dynamix if you are using a Dynamix output file or check Custom csv for any other type of file. Note: for custom .csv, you will need to manually format your data as in the csv file available for download in the bottom right link."),
                         placement = "right",
                         trigger = "hover",
                         options = list(container = "body")
