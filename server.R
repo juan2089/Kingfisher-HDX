@@ -103,7 +103,7 @@ server <- function(input, output,session) {
         HDXdata[, x+6] = sapply(HDXdata[,x+6], as.numeric)
       }
     } else {
-      if(input$datacheck=="WATERS/Dynamix output file"){ # Import data if using WATERS/Dynamix output file
+      if(input$datacheck=="WATERS/DynamX output file"){ # Import data if using WATERS/Dynamix output file
         watersdata <- read.csv(input$hdexaminerfile$datapath, 
                                header=TRUE,
                                stringsAsFactors=FALSE)
@@ -159,7 +159,7 @@ server <- function(input, output,session) {
     }
     
     # Remove rows with excessive missing values
-    HDXdata=HDXdata[rowSums(is.na(HDXdata[ , 6:((timepoints()*replicates())+5)])) <(timepoints()*replicates())-(replicates()), ]
+    HDXdata=HDXdata[rowSums(is.na(HDXdata[ , 7:((timepoints()*replicates())+6)])) <=(timepoints()*replicates())-(replicates()), ]
     
     # Filter out inconsistent data
     HDXdata=HDXdata%>%group_by(Sequence, Charge)%>%filter(n_distinct(State)==states())
@@ -183,7 +183,7 @@ server <- function(input, output,session) {
   observe({ #alert message if two check boxes are selected at the same time
     if(length(input$datacheck)==2){
       showModal(modalDialog(title="Please select only ONE option",footer=NULL,easyClose=TRUE))
-      updateCheckboxGroupInput(session, "datacheck",choices=c("WATERS/Dynamix output file", "Custom .csv output file"),selected = NULL)
+      updateCheckboxGroupInput(session, "datacheck",choices=c("WATERS/DynamX output file", "Custom .csv output file"),selected = NULL)
       }
   })
   
