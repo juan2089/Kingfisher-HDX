@@ -14,7 +14,8 @@ TUTORIAL/INSTRUCTIONS:
 
 This app is composed of 10 tabs that you can access through the left panel. Most of the tabs will be empty until you upload your data.
 
-Licence
+LICENSE
+
 Kingfisher HDX-MS is free and open-source software distributed under the GNU General Public License, version 3 or, at your option, any later version.
 You may use, study, modify, and redistribute Kingfisher HDX-MS, including for commercial purposes, subject to the terms of the GNU GPL.
 See the LICENSE file for the complete licence terms.
