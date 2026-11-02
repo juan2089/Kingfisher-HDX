@@ -13,3 +13,11 @@ If you use our app, please cite our manuscript (https://onlinelibrary.wiley.com/
 TUTORIAL/INSTRUCTIONS:
 
 This app is composed of 10 tabs that you can access through the left panel. Most of the tabs will be empty until you upload your data.
+
+Licence
+Kingfisher HDX-MS is free and open-source software distributed under the GNU General Public License, version 3 or, at your option, any later version.
+You may use, study, modify, and redistribute Kingfisher HDX-MS, including for commercial purposes, subject to the terms of the GNU GPL.
+See the LICENSE file for the complete licence terms.
+Kingfisher releases previously distributed under the Creative Commons Attribution-NonCommercial 4.0 International licence remain available under the terms granted for those releases.
+If you use Kingfisher HDX-MS in published research, please cite:
+McLaughlin NK, Rincon Pabon JP, Gies S, Dastvan R, Gross ML. Kingfisher: An open-sourced web-based platform for the analysis of hydrogen exchange mass spectrometry data. Protein Science. 2025; 34(4):e70096. https://doi.org/10.1002/pro.70096
