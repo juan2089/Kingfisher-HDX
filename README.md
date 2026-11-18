@@ -18,7 +18,7 @@ This app is composed of 10 tabs that you can access through the left panel. Most
 
 LICENSE
 
-Kingfisher HDX-MS is free and open-source software distributed under the GNU General Public License, version 3 or, at your option, any later version.
+Kingfisher HDX-MS is free software distributed under the GNU General Public License, version 3 or any later version.
 You may use, study, modify, and redistribute Kingfisher HDX-MS, including for commercial purposes, subject to the terms of the GNU GPL.
 See the LICENSE file for the complete licence terms.
 Kingfisher releases previously distributed under the Creative Commons Attribution-NonCommercial 4.0 International licence remain available under the terms granted for those releases.
